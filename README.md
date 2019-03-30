@@ -3,7 +3,7 @@
 ![alt text](https://i.imgur.com/3FbbJ8V.jpg)
 
 
-#### First Time Codes
+#### First Time Codes:
 
 ```
 Run Powershell as administrator first time
@@ -16,4 +16,16 @@ Run Powershell as administrator first time
 >>> ./Scripts/activate
 >>> pip install django
 >>> pip freeze
+>>> mkdir djangoproject
+>>> django-admin.py startproject projectname
+```
+
+
+#### To run the localhost:
+
+```
+>>> cd C:\code\djangoproject\
+>>> ./Scripts/activate
+>>> python manage.py runserver
+>>> python manage.py migrate   //to remove migrate database errors on console
 ```
