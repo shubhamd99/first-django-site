@@ -29,3 +29,9 @@ Run Powershell as administrator first time
 >>> python manage.py runserver
 >>> python manage.py migrate   //to remove migrate database errors on console
 ```
+
+#### Create user for db
+
+```
+python manage.py createsuperuser
+```
